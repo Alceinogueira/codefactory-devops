@@ -16,4 +16,10 @@ describe("CodeFactory DevOps API", () => {
         expect(response.body.status).toBe("OK");
     });
 
+});test("GET /info deve retornar informações do projeto", async () => {
+    const response = await request(app).get("/info");
+
+    expect(response.statusCode).toBe(200);
+    expect(response.body.projeto).toBe("CodeFactory DevOps");
+    expect(response.body.versao).toBe("1.0.0");
 });
