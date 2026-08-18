@@ -22,5 +22,5 @@ describe("CodeFactory DevOps API", () => {
     expect(response.statusCode).toBe(200);
     expect(response.body.projeto).toBe("CodeFactory DevOps");
     expect(response.body.versao).toBe("1.1.0");
-    expect(response.body.statusProjeto).toBe("Em desenvolvimento");
+    expect(response.body.statusProjeto).toBe("Projeto em desenvolvimento");
 });
