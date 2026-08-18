@@ -24,7 +24,7 @@ app.get("/info", (req, res) => {
         versao: "1.1.0",
         ambiente: "desenvolvimento",
         tecnologia: "Node.js + Express",
-        statusProjeto: "Em desenvolvimento"
+        statusProjeto: "Projeto em produção"
     });
 });
 
