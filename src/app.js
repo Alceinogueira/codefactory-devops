@@ -21,9 +21,10 @@ app.get("/health", (req, res) => {
 app.get("/info", (req, res) => {
     res.json({
         projeto: "CodeFactory DevOps",
-        versao: "1.0.0",
+        versao: "1.1.0",
         ambiente: "desenvolvimento",
-        tecnologia: "Node.js + Express"
+        tecnologia: "Node.js + Express",
+        statusProjeto: "Em desenvolvimento"
     });
 });
 
