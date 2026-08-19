@@ -1,14 +1,6 @@
 name: CI - CodeFactory
 
-on:
-push:
-branches:
-- main
-- desenvolvimento
-- features
-pull_request:
-branches:
-- main
+on: [push]
 
 jobs:
 test:
