@@ -44,6 +44,10 @@ Entre as práticas utilizadas estão:
 ```text
 codefactory-devops/
 │
+├── .github/
+│   └── workflows/
+│       └── ci.yml
+│
 ├── src/
 │   ├── app.js
 │   └── server.js
@@ -51,7 +55,9 @@ codefactory-devops/
 ├── tests/
 │   └── app.test.js
 │
+├── .dockerignore
 ├── .gitignore
+├── Dockerfile
 ├── package.json
 ├── package-lock.json
 └── README.md
